@@ -1,0 +1,73 @@
+*{margin:0;padding:0;}
+body{margin:0 auto;font:normal 12px "宋体";text-align:center;line-height:20px;background:#e2e2e2 url(../images/header_bg.gif) top repeat-x;}
+a:link{color:#333;text-decoration:none;}
+a:visited{color:#333;text-decoration:none;}
+a:hover{color:#a00;text-decoration:underline;}
+ul,li{list-style:none;}
+img{border:none;}
+font{font-size:12px;}
+cite,em{font-style:normal;}
+.clear{clear:both;}
+
+.header{height:95px;width:950px;margin:0 auto;overflow:hidden;}
+.logo{float:left;padding:36px 0 0 9px;}
+.city{float:left;color:#a00;padding:66px 0 0 5px;}
+.city a:link,.city a:visited{color:#a00;}
+.tools{float:right;height:22px;color:#fff;line-height:22px;}
+.tools cite{float:left;background:url(../images/tools_bg1.gif);width:18px;height:22px;}
+.tools em{float:left;background:url(../images/tools_bg2.gif);width:18px;height:22px;}
+.tools span{float:left;background:#151515;height:22px;padding:0 5px;}
+.tools a:link,.tools a:visited,.tools a:hover{color:#fff;}
+.nav{float:right;padding-top:42px;height:28px;line-height:22px;font-size:14px;width:630px;}
+.nav a{float:left;margin-left:5px;background:url(../images/nav_bg1.gif) 11px 8px no-repeat;width:70px;height:28px;text-align:center;}
+.nav a:hover{background:url(../images/nav_bg2.gif) left bottom no-repeat;text-decoration:none;}
+.nav a.on{background:url(../images/nav_bg2.gif) left bottom no-repeat;}
+.nav span a{width:100px;}
+.nav span a:hover{background:url(../images/nav_bg3.gif) left bottom no-repeat;}
+.nav span a.on{background:url(../images/nav_bg3.gif) left bottom no-repeat;}
+.search{width:950px;margin:0 auto;height:40px;position:relative;}
+.search span{float:left;padding:15px 0 0 10px;color:#848484;}
+.search span a:link,.search span a:visited{color:#848484;}
+.search span a:hover{color:#a00;}
+.search em{float:right;padding-top:6px;}
+.search em *{float:left;}
+.search em font{background:url(../images/search_bg1.gif);height:23px;width:50px;padding:4px 5px 0 0;cursor:pointer;}
+.search cite input{height:20px;width:196px;border:0;margin:0;padding:7px 5px 0 5px;background:url(../images/search_bg2.gif);margin-right:5px;font-size:12px;}
+.search div{border:solid 1px #cfcfcf;border-bottom:none;width:53px;position:absolute;left:656px;top:32px;display:none;}
+.search p{background:#f4f4f4;border-bottom:solid 1px #cfcfcf;cursor:pointer;float:left;width:53px;height:20px;}
+
+.leaveword{text-align:left;width:610px;overflow:hidden;padding-bottom:10px;}
+.leaveword a:link,.leaveword a:visited{color:#a00;}
+.leaveword .quickpost table{width:100%;margin:10px;}
+.leaveword .quickpost td {padding:2px 0;}
+.leaveword .quickpost img{vertical-align:middle;}
+.leaveword .quickpost .submit{padding:0 5px;height:24px;border:none;background:#ff8600;color:#FFF;line-height:20px;cursor:pointer;}
+.leaveword ul li{padding:10px;border-bottom:1px solid #EFD5B2;}
+.leaveword ul .avatar48{float:left;display:inline;}
+.leaveword ul .avatar48 img{width:44px;height:44px;padding:2px;border:solid 1px #dadada;float:left;margin-right:10px;}
+.leaveword ul .title{margin-bottom:10px;}
+.leaveword ul .title span.gray{color:#999;}
+.leaveword ul .detail{color:#444;}
+.leaveword ul .r_option{float:right;}
+
+.album{margin-bottom:10px;}
+.album ul{height:107px;overflow:hidden;}
+.album ul li{padding:20px 9px 0 9px;width:104px;height:87px;float:left;display:inline;overflow:hidden;}
+.album ul li img{width:100px!important;height:63px!important;padding:1px;border:solid 1px #dadada;float:left;}
+.album ul ol{float:left;width:536px;height:107px;overflow:hidden;padding:0 1px;}
+.album ul ol li{padding:20px 15px 0 15px;}
+.album ul ol li span.gray{color:#333;}
+.album ul em{float:left;width:16px;padding:20px 10px 0 10px;}
+.album table{width:100%}
+.album td{padding:5px 0;}
+.album td img{width:100px!important;height:63px!important;padding:1px;border:solid 1px #dadada;clear:both;}
+
+.footer{height:100px;width:100%;margin-top:10px;background:url(../images/bottom_bg.gif);color:#999;}
+.footer ul{width:950px;margin:0 auto;height:25px;line-height:25px;}
+.footer ol{width:950px;margin:0 auto;padding-top:16px;}
+.footer span{float:left;}
+.footer em{float:right;}
+.footer img{vertical-align:middle;}
+.footer a:link,.footer a:visited{color:#999;}
+.footer a:hover{color:#f90;}
+.footer ul span{font-family:Arial;}

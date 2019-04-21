@@ -1,0 +1,108 @@
+body{background:url(../images/index_bg.jpg) top repeat-x!important;}
+.main{width:950px;margin:0 auto;padding-bottom:10px;}
+.main_left{float:left;width:663px;}
+
+.focus{height:302px;width:663px;background:url(../images/main_bg1.jpg) bottom no-repeat;position:relative;z-index:2;}
+.focus embed{float:left;margin:0 4px;}
+.focus dl{padding:0 20px;}
+.focus dl font{float:left;width:329px;overflow:hidden;padding-top:24px;text-align:left;}
+.focus dl font strong{margin-right:15px;}
+.focus dl em{float:right;padding-top:20px;}
+.focus dl em *{float:left;}
+.focus dl em span{background:url(../images/search_bg1.gif);height:23px;width:50px;padding:4px 5px 0 0;cursor:pointer;}
+.focus dl em cite input{height:20px;width:196px;border:0;margin:0;padding:7px 5px 0 5px;background:url(../images/search_bg2.gif);margin-right:5px;font-size:12px;}
+.focus dl div{border:solid 1px #cfcfcf;border-bottom:none;width:53px;position:absolute;left:349px;top:275px;display:none;}
+.focus dl p{background:#f4f4f4;border-bottom:solid 1px #cfcfcf;cursor:pointer;float:left;width:53px;height:20px;}
+
+.item{border:solid 1px #dadada;margin-top:20px;width:661px;}
+.item h3{font-size:14px;padding:10px 0 0 10px;text-align:left;}
+.item h4{font-size:14px;padding-left:10px;margin-top:8px;text-align:left;background:url(../images/main_bg2.jpg) top repeat-x;line-height:30px;}
+.item ul li{float:left;width:155px;height:111px;padding:8px 0 0 8px;position:relative;overflow:hidden;z-index:1;}
+.item ul li span{position:absolute;left:60px;top:98px;width:95px;height:20px;text-align:right;overflow:hidden;}
+.item ul li span font{color:#f00;font-weight:bold;}
+.item ol{margin:5px 8px 8px 7px;width:646px;overflow:hidden;}
+.item ol a:link,.item ol a:visited,.item ol a:hover{color:#fff;text-decoration:none;}
+.item ol h5{font-size:12px;font-weight:normal;line-height:21px;height:21px;float:left;width:648px;margin-right:-2px;margin-bottom:10px;}
+.item ol h5 a{float:left;padding-right:2px;width:79px;background:#434343 url(../images/mian_bg4.gif) right center no-repeat;}
+.item ol h5 a.on{background:#b00 url(../images/mian_bg4.gif) right center no-repeat;}
+.item ol p{padding:0 10px;width:626px;height:60px;}
+.item ol p span{float:left;text-align:left;width:500px;height:60px;overflow:hidden;}
+.item ol p em{float:right;height:26px;width:114px;background:url(../images/main_bg3.jpg);margin-top:17px;line-height:26px;}
+.news{margin-top:20px;width:663px;text-align:left;}
+.news h4{font-size:14px;padding:0 0 5px 10px;}
+.news li{padding:5px 10px 0 20px;border-bottom:dashed 1px #dadada;background:url(../images/mian_bg5.gif) 10px 12px no-repeat;width:633px;height:20px;overflow:hidden;}
+.news a:link,.news a:visited{color:#369;}
+.news a:hover{color:#a00;}
+.assn{float:left;width:270px;margin-top:20px;}
+.assn h4{font-size:14px;line-height:30px;height:30px;width:270px;margin-bottom:1px;}
+.assn h4 a{float:left;width:80px;margin-right:1px;height:30px;background:#dadada;}
+.assn h4 a:hover{color:#FFF;text-decoration:none}
+.assn h4 a.on{color:#FFF;background:url(../images/mian_bg7.gif);}
+.assn ul{border:solid 1px #dadada;width:268px;padding:8px 0;height:264px;}
+.assn ul li{margin:8px 12px;float:left;width:244px;height:50px;overflow:hidden;text-align:left;display:inline;}
+.assn ul li img{width:44px;height:44px;padding:2px;border:solid 1px #dadada;float:left;margin-right:10px;}
+.assn ul li span{font-size:14px;float:left;width:184px;height:25px;line-height:25px;padding-top:5px;overflow:hidden;}
+.assn ul li em{float:left;width:184px;height:20px;color:#888;}
+.assn ol{border:solid 1px #dadada;width:252px;padding:6px 8px 10px 8px;height:264px;}
+.assn ol li{border-bottom:dashed 1px #dadada;height:24px;line-height:24px;padding:4px 5px 0 5px;font-size:14px;text-align:left;overflow:hidden;}
+.assn ul a:link,.assn ul a:visited{color:#369;}
+.assn ul a:hover{color:#a00;}
+.assn ol a:link,.assn ol a:visited{color:#369;}
+.assn ol a:hover{color:#a00;}
+.palaestra{float:right;width:376px;margin-top:20px;}
+.palaestra h4{font-size:14px;line-height:30px;height:30px;padding-left:10px;margin-bottom:1px;text-align:left;}
+.palaestra ul{border:solid 1px #dadada;width:360px;padding:15px 8px;height:250px;}
+.palaestra p{height:128px;width:346px;padding:0 7px;overflow:hidden;text-align:left;} 
+.palaestra p img{width:160px;height:120px;padding:3px;border:solid 1px #dadada;margin-right:10px;float:left;}
+.palaestra p span{float:left;width:168px;height:25px;line-height:25px;padding-top:43px;overflow:hidden;font-size:14px;}
+.palaestra p cite{float:left;width:168px;color:#888;}
+.palaestra p cite em{float:left;width:36px;}
+.palaestra p cite font{float:left;width:132px;height:40px;overflow:hidden;}
+.palaestra li{float:left;width:104px;height:99px;padding:15px 8px 0 8px;}
+.palaestra li img{width:100px;height:75px;float:left;margin-bottom:4px;padding:1px;border:solid 1px #dadada;}
+.palaestra li span{float:left;height:16px;line-height:16px;width:100px;overflow:hidden;}
+.palaestra ul a:link,.palaestra ul a:visited{color:#369;}
+.palaestra ul a:hover{color:#a00;}
+
+.main_right{float:right;width:270px;margin-top:10px;}
+.login{width:270px;height:292px;}
+.login img{float:left;}
+.people{border:solid 1px #dadada;margin-top:20px;width:268px;}
+.people h4{font-size:14px;padding:10px 0 0 10px;text-align:left;}
+.people ul{padding:0 4px;}
+.people li{float:left;margin:12px 5px;width:120px;height:52px;text-align:left;overflow:hidden;display:inline;}
+.people li img{width:48px;height:48px;padding:1px;border:solid 1px #d20000;margin-right:6px;float:left;}
+.people li span{float:left;width:62px;height:20px;border-bottom:dashed 1px #ccc;overflow:hidden;}
+.people li cite{float:left;width:62px;height:20px;overflow:hidden;color:#369;}
+.people li cite a:link,.people li cite a:visited{color:#369;}
+.people li cite a:hover{color:#a00;}
+.people li em{float:left;width:57px;height:11px;line-height:11px;background:url(../images/mian_bg6.gif);font-family:Arial;font-size:10px;color:#fff;padding-left:5px;}
+.game{margin-top:20px;width:270px;}
+.game h4{font-size:14px;line-height:30px;height:30px;width:270px;margin-bottom:1px;}
+.game h4 a{float:left;width:80px;margin-right:1px;height:30px;background:#dadada;}
+.game h4 a:hover{color:#FFF;text-decoration:none}
+.game h4 a.on{color:#FFF;background:url(../images/mian_bg7.gif);}
+.game ul{border:solid 1px #dadada;border-bottom:none;width:268px;}
+.game ul p{margin:1px;background:url(../images/mian_bg8.gif) bottom repeat-x;padding:10px;height:124px;width:246px;}
+.game ul p span{display:block;line-height:27px;height:27px;width:226px;background:#ea0000;font-size:14px;padding:0 10px;margin-bottom:9px;overflow:hidden;}
+.game ul p span a:link,.game ul p span a:visited,.game ul p span a:hover{color:#fff;}
+.game ul p cite{display:block;line-height:22px;text-align:left;padding:0 5px;}
+.game ul p cite em{float:left;width:42px;}
+.game ul p cite font{float:left;width:194px;height:44px;overflow:hidden;}
+.game ul li{border-bottom:solid 1px #dadada;height:40px;padding:13px 10px 9px 10px;width:248px;text-align:left;color:#333;float:left;overflow:hidden;}
+.game ul li span{float:left;width:60px;margin:10px 10px 0 0;height:20px;overflow:hidden;}
+.game ul li em{float:left;width:178px;height:40px;overflow:hidden;}
+.game ul li em strong{display:block;font-size:14px;height:20px;overflow:hidden;}
+.train{width:270px;margin-top:20px;}
+.train h4{font-size:14px;line-height:30px;height:30px;padding-left:10px;margin-bottom:1px;text-align:left;}
+.train ul{border:solid 1px #dadada;width:244px;padding:15px 12px;height:250px;overflow:hidden}
+.train p{height:80px;width:252px;overflow:hidden;text-align:left;margin-bottom:7px;} 
+.train p img{width:100px;height:75px;padding:1px;border:solid 1px #dadada;margin-right:8px;float:left;}
+.train p span{float:left;width:132px;height:20px;overflow:hidden;}
+.train p cite{float:left;width:132px;height:20px;overflow:hidden;}
+.train p cite em{color:#888;}
+.train p cite font{color:#a00;}
+.train li{height:20px;border-bottom:dashed 1px #dadada;padding:7px 5px 4px 5px;text-align:left;color:#888;overflow:hidden;}
+.train li a{font-size:14px;}
+.train ul a:link,.train ul a:visited{color:#369;}
+.train ul a:hover{color:#a00;}

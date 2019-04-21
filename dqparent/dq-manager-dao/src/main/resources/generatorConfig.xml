@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+	<classPathEntry
+			location="F:\1000phone\three\maven_cangku\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar" ></classPathEntry>
+  <context id="context" targetRuntime="Mybatis3" >
+	<commentGenerator>
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+			<property name="suppressAllComments" value="true" />
+	</commentGenerator>
+	  <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/dongqu?characterEncoding=utf-8"
+					userId="root" password="admin" />
+	  <!-- 生成POJO类的位置 -->
+    <javaModelGenerator targetPackage="com.itqf.pojo" targetProject="src/main/java" />
+	  <!-- mapper映射文件生成的位置 -->
+    <sqlMapGenerator targetPackage="com.itqf.mapper" targetProject="src/main/java" />
+	  <!-- mapper接口生成的位置 -->
+    <javaClientGenerator targetPackage="com.itqf.mapper" targetProject="src/main/java" type="XMLMAPPER" />
+	  <!-- 指定数据库表 -->
+    <table  tableName="dq_account_details" domainObjectName="DqAccountDetails"></table>
+    <table  tableName="dq_accounts" domainObjectName="DqAccounts"></table>
+    <table  tableName="dq_activities" domainObjectName="DqActivities"></table>
+	<table  tableName="dq_albums" domainObjectName="DqAlbums"></table>
+	<table  tableName="dq_banks" domainObjectName="DqBanks"></table>
+	<table  tableName="dq_clubs" domainObjectName="DqClubs"></table>
+	<table  tableName="dq_commercial_entities" domainObjectName="DqCommercialEntities"></table>
+	<table  tableName="dq_cost_details" domainObjectName="DqCostDetails"></table>
+	<table  tableName="dq_depot_entities" domainObjectName="DqDepotEntities"></table>
+	<table  tableName="dq_entities" domainObjectName="DqEntities"></table>
+	<table  tableName="dq_equipments" domainObjectName="DqEquipments"></table>
+	<table  tableName="dq_game_points" domainObjectName="DqGamePoints"></table>
+	<table  tableName="dq_grounds" domainObjectName="DqGrounds"></table>
+	<table  tableName="dq_level_set" domainObjectName="DqLeveLset"></table>
+	<table  tableName="dq_memberships" domainObjectName="DqMemberships"></table>
+	<table  tableName="dq_message_statuses" domainObjectName="DqMessageStatuses"></table>
+	<table  tableName="dq_messages" domainObjectName="DqMessages"></table>
+	<table  tableName="dq_notices" domainObjectName="DqNotices"></table>
+	<table  tableName="dq_online_records" domainObjectName="DqOnlineRecords"></table>
+	<table  tableName="dq_orders" domainObjectName="DqOrders"></table>
+	<table  tableName="dq_participatings" domainObjectName="DqParticipatings"></table>
+	<table  tableName="dq_point_details" domainObjectName="DqPointDetails"></table>
+	<table  tableName="dq_posts" domainObjectName="DqPosts"></table>
+	<table  tableName="dq_report_comments" domainObjectName="DqReportComments"></table>
+	<table  tableName="dq_reports" domainObjectName="DqReports"></table>
+	<table  tableName="dq_stores" domainObjectName="DqStores"></table>
+	<table  tableName="dq_topics" domainObjectName="DqTopics"></table>
+	<table  tableName="dq_trainings" domainObjectName="DqTrainings"></table>
+	<table  tableName="dq_user_credit_profiles" domainObjectName="DqUserCreditProfiles"></table>
+	<table  tableName="dq_user_skill_profiles" domainObjectName="DqUserSkillProfiles"></table>
+	<table  tableName="dq_users" domainObjectName="DqUsers"></table>
+  </context>
+</generatorConfiguration>
